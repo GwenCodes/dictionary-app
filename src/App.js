@@ -1,12 +1,11 @@
-import logo from "./logo.png";
-
+import logo from "./Logo.png";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-logo img-fluid">
-        <img src={logo} alt="app-logo" />
+      <header className="App-header">
+        <img src={logo} className="App-logo img-fluid" alt="logo" />
       </header>
     </div>
   );
